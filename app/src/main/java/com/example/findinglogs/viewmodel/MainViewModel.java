@@ -62,7 +62,7 @@ public class MainViewModel extends AndroidViewModel {
                     updatedList.add(result);
                     if (updatedList.size() == localizations.size()) {
                         // Método para ordenar elementos por nome
-                        updatedList.sort((w1, w2) -> w1.getName().compareToIgnoreCase(w2.getName()));
+                        //updatedList.sort((w1, w2) -> w1.getName().compareToIgnoreCase(w2.getName()));
                         _weatherList.setValue(updatedList);
                         // Gera muitas chamadas causando muitas atualizações de tela
                         //handler.postDelayed(fetchRunnable, FETCH_INTERVAL);
